@@ -12,6 +12,6 @@ def home():
 def generate():
     req = []
     args = request.args['type', 'title', 'description', 'description_lenght', 'excerpt', 'slug', 'meta_description', 'og_schema', 'image_alt', 'hints']
-    for arg in args
+    for arg in args:
         req.append(arg)
     return req
