@@ -42,7 +42,7 @@ def generate():
 
 
 def getCompletion(prompt):
-    openai.api_key = "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"
+    openai.api_key = "xxxxxxxx"
     context = 'You are a SEO expert and you need to help me to support and optmize all the SEO aspect of specific web page. Please respond as accurate and professional as you can to the following query'
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
