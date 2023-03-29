@@ -1,5 +1,4 @@
 import openai
-import simplejson
 import flask
 from flask import request
 
